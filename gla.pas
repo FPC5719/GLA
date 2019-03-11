@@ -3,7 +3,7 @@ GL Addons
 对GL、GLU中的东西进行了一定的整合
 （或许）可以简化使用
 FPC5719
-2019.2
+2019.3
 }
 {$MODE OBJFPC}
 unit gla;
