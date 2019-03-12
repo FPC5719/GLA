@@ -3,12 +3,12 @@ GLA中的纹理操作单元
 }
 {$IFDEF GLA_INTERFACE}
 {$INFO Compiling gla_texture::interface}
-function txrLoad(fnm:string):GLUint;
+function glaLoadTexture(fnm:string):GLUint;
 {$ENDIF}
 
 {$IFDEF GLA_IMPLEMENTATION}
 {$INFO Compiling gla_texture::implementation}
-function txrLoad(fnm:string):GLUInt;
+function glaLoadTexture(fnm:string):GLUInt;
 var
 	Reader:TFPCustomImageReader;
 	img:TFPMemoryImage;
