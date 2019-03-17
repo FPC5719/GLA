@@ -2,12 +2,16 @@
 GLA中的纹理操作单元
 }
 {$IFDEF GLA_INTERFACE}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_texture::interface}
+{$ENDIF}
 function glaLoadTexture(fnm:string):GLUint;
 {$ENDIF}
 
 {$IFDEF GLA_IMPLEMENTATION}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_texture::implementation}
+{$ENDIF}
 function glaLoadTexture(fnm:string):GLUInt;
 var
 	Reader:TFPCustomImageReader;

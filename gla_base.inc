@@ -2,7 +2,9 @@
 GLA中的基本窗口操作函数
 }
 {$IFDEF GLA_INTERFACE}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_base::interface}
+{$ENDIF}
 const
 	GLACLASSNAME='GLAWNDCLS';
 
@@ -21,7 +23,9 @@ procedure glaFlush;
 {$ENDIF}
 
 {$IFDEF GLA_IMPLEMENTATION}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_base::inplementation}
+{$ENDIF}
 var
 	__map:TGLACallbackMap;
 	__dc,__hw:DWord;

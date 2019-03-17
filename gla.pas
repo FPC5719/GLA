@@ -6,6 +6,7 @@ FPC5719
 2019.3
 }
 {$MODE OBJFPC}
+{$DEFINE GLA_DEBUG}
 unit gla;
 
 interface

@@ -2,7 +2,9 @@
 GLA中的视角变换函数
 }
 {$IFDEF GLA_INTERFACE}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_camera.inc::interface}
+{$ENDIF}
 procedure glaMoveCamera(t:extended);
 procedure glaMoveCameraY(t:extended);
 procedure glaTurnCamera(drd,dud:extended);
@@ -12,7 +14,9 @@ procedure glaModifyCamera;
 {$ENDIF}
 
 {$IFDEF GLA_IMPLEMENTATION}
+{$IFDEF GLA_DEBUG}
 {$INFO Compiling gla_camera.inc::implementation}
+{$ENDIF}
 var
 	ud,rd,x,y,z:extended;
 
