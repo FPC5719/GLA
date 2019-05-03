@@ -24,8 +24,11 @@ uses
 {$ENDIF}
 
 {$INCLUDE gla_base.inc}
+{$INCLUDE gla_file.inc}
+{$INCLUDE gla_math.inc}
 {$INCLUDE gla_camera.inc}
 {$INCLUDE gla_texture.inc}
+{$INCLUDE gla_model.inc}
 
 implementation
 
@@ -37,7 +40,10 @@ implementation
 {$ENDIF}
 
 {$INCLUDE gla_base.inc}
+{$INCLUDE gla_file.inc}
+{$INCLUDE gla_math.inc}
 {$INCLUDE gla_camera.inc}
 {$INCLUDE gla_texture.inc}
+{$INCLUDE gla_model.inc}
 
 end.
